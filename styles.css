@@ -1,0 +1,137 @@
+body {
+    background-color: #001800;
+    padding: 0;
+    margin: 0;
+    display: grid;
+}
+main h1 {
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;;
+}
+
+header {
+    background-color:rgb(31, 82, 53);
+    position: relative;
+    width: 100%;
+    border-radius: 15px;
+}
+
+header > h1{
+    color: #ffffff;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 2px 4px 3px black, 0 0 1px white;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #fdfdfd;
+}
+
+nav li:hover {
+    background-color: #9abbab;
+    
+}
+
+nav li{
+    padding: 0 30px;
+    margin: 0 20px;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #001800;
+    color: #ffffff;
+    padding-bottom: 30px;
+    text-shadow: 2px 4px 3px black, 0 0 1px white;
+}
+
+.section1{
+    background-image: url('https://th.bing.com/th/id/OIG.wgh3lpIpTHz9L7sJvilf?pid=ImgGn') ; 
+    background-size:cover;
+    background-position: center;
+    background-attachment:fixed;
+    border-style: hidden;
+    font-style:oblique;
+    margin-top: 15px;
+    height: 600px;
+    justify-content: flex-start;
+}
+
+.section1 h1{
+    padding-left: 50px;
+}
+
+.section1 p{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.section2 article{
+    background-color: rgb(21, 71, 43);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 20px;
+    max-width:min-content;
+    width: 500px;
+    text-align: center;
+}
+
+.section2 article img{
+    height: 400px;
+    width: auto;
+}
+
+.section2 article p {
+    font-size: 1.5rem;
+    word-wrap: break-word;
+}
+.section2 article button{
+    font-size: 2rem;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+
+.section2 article button:hover {
+    cursor: pointer;
+    background-color: #d5f1e4
+}
+
+.time {
+    font-weight: bold;
+}
+
