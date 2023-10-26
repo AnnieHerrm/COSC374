@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Biometric Authentication for Vehicle Security</title>
+
+    <meta name="description" content="Biometric authentication for vehicle security">
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header>
+        <h1>Biometric Authentication for Vehicle Security</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="simulation.html">simulation</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Simulation</h1>
+        <section class="section3">
+            <article>
+                <form id="authentication-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" required>
+                    
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" required>
+                    
+                    <label for="bin">BIN:</label>
+                    <input type="text" id="bin" required>
+                    
+                    <label for="fingerprint">Fingerprint:</label>
+                    <input type="file" accept="image/*" capture="environment" id="fingerprint">
+                    
+                    <label for="face">Face:</label>
+                    <input type="file" accept="image/*" capture="user" id="face" required>
+                    
+                    <button type="submit" value="Submit">Submit</button>
+                  </form>
+            </article>
+        </section>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
