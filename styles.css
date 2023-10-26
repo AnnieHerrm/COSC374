@@ -131,7 +131,34 @@ section{
     background-color: #d5f1e4
 }
 
-.time {
-    font-weight: bold;
+.section3 article {
+    background-color: rgb(21, 71, 43);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 20px;
+    width: fit-content;
+    text-align: center;
+    height: auto;
 }
 
+.section3 #authentication-form {
+    display:grid;
+    grid-template-columns: max-content min-content;
+    grid-gap:20px;
+    font-size: 2rem;
+}
+
+.section3 button {
+    font-size: 2rem;
+    border-radius: 15px;
+    background-color: #ffffff;
+    
+}
+
+.section3 button:hover {
+    cursor: pointer;
+    background-color: #d5f1e4
+}
