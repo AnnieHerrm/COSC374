@@ -151,14 +151,28 @@ section{
     font-size: 2rem;
 }
 
-.section3 button {
-    font-size: 2rem;
-    border-radius: 15px;
-    background-color: #ffffff;
-    
+.section4 {
+    background-image: url('https://th.bing.com/th/id/OIG.StUA6fLy1lVXfkGu5HyQ?pid=ImgGn') ; 
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    border-style: hidden;
+    font-style:oblique;
+    height: 600px;   
 }
 
-.section3 button:hover {
-    cursor: pointer;
-    background-color: #d5f1e4
+.section4 button{
+    font-size: 2rem;
+    border-radius: 15px;
+    margin-top: 35%;  
+    height: 70px;
+    width: 300px;
+    background-color: #ffffff;
 }
+
+.section4 button:hover {
+    cursor: pointer;
+    background-color: #0ea05c
+}
+
