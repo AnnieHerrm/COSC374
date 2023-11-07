@@ -35,14 +35,11 @@
                     <label for="phone">Phone:</label>
                     <input type="tel" id="phone" required>
                     
-                    <label for="bin">BIN:</label>
-                    <input type="text" id="bin" required>
-                    
-                    <label for="fingerprint">Fingerprint:</label>
-                    <input type="file" accept="image/*" capture="environment" id="fingerprint">
+                    <label for="pin">PIN:</label>
+                    <input type="text" id="pin" required>
                     
                     <label for="face">Face:</label>
-                    <button onclick="openFaceDetectionWindow()">Take face data</button>
+                    <button type="button"  onclick="openFaceDetectionWindow()">Take face data</button>
                     <p id="face-data-message"></p>
                     
                     <input type="submit" value="Submit" id="submit-button" >

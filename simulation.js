@@ -27,4 +27,4 @@ const form = document.getElementById('authentication-form');
 
 const name = document.getElementById('name');
 const phone = document.getElementById('phone');
-const bin = document.getElementById('bin');
+const pin = document.getElementById('pin');
