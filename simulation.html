@@ -28,7 +28,7 @@
         <h1>Simulation</h1>
         <section class="section3">
             <article>
-                <form id="authentication-form" method="get" action="simulation2.html">
+                <form id="authentication-form" onsubmit="submitForm1(event)">
                     <label for="name">Name:</label>
                     <input type="text" id="name" required>
                     
@@ -36,13 +36,13 @@
                     <input type="tel" id="phone" required>
                     
                     <label for="pin">PIN:</label>
-                    <input type="text" id="pin" required>
+                    <input type="password" id="pin" pattern="\d{8}" title="enter 8 digits pin" required>
                     
                     <label for="face">Face:</label>
-                    <button type="button"  onclick="openFaceDetectionWindow()">Take face data</button>
+                    <button type="button" onclick="openFaceDetectionWindow()">Take face data</button>
                     <p id="face-data-message"></p>
                     
-                    <input type="submit" value="Submit" id="submit-button" >
+                    <button type="submit" value="Submit" id="submit-button" disabled >Submit</button>
                     
                   </form>
             </article>

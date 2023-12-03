@@ -21,7 +21,7 @@
         <div class="form-popup" id="myForm" >
             <form  class="form-container" onsubmit="submitForm(event)">
                 <label for="pin">PLease enter the PIN:</label>
-                <input type="text" id="pin2" required>
+                <input type="password" id="pin2" pattern="\d{8}" title="enter 8 digits pin">
                 <button type="submit" value="Submit" id="submit-button">Submit</button>
             </form>
         </div>
