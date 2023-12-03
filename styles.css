@@ -78,7 +78,7 @@ section{
 }
 
 .section1{
-    background-image: url('https://th.bing.com/th/id/OIG.wgh3lpIpTHz9L7sJvilf?pid=ImgGn') ; 
+    background-image: url('images/car.jpg') ; 
     background-size:cover;
     background-position: center;
     background-attachment:fixed;
@@ -152,7 +152,7 @@ section{
 }
 
 .section4 {
-    background-image: url('https://th.bing.com/th/id/OIG.StUA6fLy1lVXfkGu5HyQ?pid=ImgGn') ; 
+    background-image: url('images/simulation.jpg') ; 
     background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -174,5 +174,32 @@ section{
 .section4 button:hover {
     cursor: pointer;
     background-color: #0ea05c
+}
+
+.form-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 15px;
+    border: 3px solid #ffffff;
+    z-index: 9;
+  }
+  
+  
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: rgb(21, 71, 43);
+}
+
+.section5 {
+    background-image: url('images/verfied.jpg') ; 
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    border-style: hidden;
+    font-style:oblique;
+    height: 600px;   
 }
 

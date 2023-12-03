@@ -16,8 +16,15 @@
     <main>
         <h1>Simulation</h1>
         <section class="section4">
-            <button>Enter vehicle</button>
+            <button type="button" id="enter-vehicle" onclick="randomizeVerification()">Enter vehicle</button>
         </section>
+        <div class="form-popup" id="myForm" >
+            <form  class="form-container" onsubmit="submitForm(event)">
+                <label for="pin">PLease enter the PIN:</label>
+                <input type="text" id="pin2" required>
+                <button type="submit" value="Submit" id="submit-button">Submit</button>
+            </form>
+        </div>
     </main>
     <footer>
     </footer>
